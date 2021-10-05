@@ -1,0 +1,202 @@
+#fundo-side{
+
+    background-color: #1a1d23;
+    color: white;
+    height: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#font-color{
+color: white;
+}
+.container{
+
+  padding-left: 0;
+    padding-right: 0;
+}
+#dinheiro{
+ 
+  color: white; background-color:#009245
+
+}
+#facebook{
+  color: white; background-color:#264b8c 
+
+}
+#twitter{
+  color: white; background-color:#55acee
+
+}
+#google{
+  color: white; background-color:#dd4b39
+
+}
+
+#posicao-porcentagem{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  
+
+}
+#porcentagem{
+  
+ 
+  background-color:  #1fb5ad; text-align: center; color: white;
+  
+
+}
+img {
+    max-width: 100%;
+    width: 100%;
+    text-align:  center;
+  }
+
+ 
+  #tempo{
+   width: auto;
+   height: auto;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 20px;
+
+  }
+  #logo{
+    width: auto;
+    height: auto;
+ 
+   }
+   .card{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+   }
+
+   .usuario{
+     
+    text-align: center;
+    width: auto;
+    height: auto;
+    
+   }
+
+  .logo{
+    background-color: #1fb5ad;
+    color: white;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  #fundo2{
+
+    background-color: #f1f2f7;
+    padding-left: 0px;
+  }
+
+  #dash{
+    background-color: white;
+    text-align: center;
+    font-family: monospace;
+    padding-left: 0px;
+  }
+
+  #padding-dash{
+  width: 100%;
+  padding-left: 0px;
+  padding-right:0px;
+ 
+  }
+
+  #sidebar{
+
+    font-size: 15pt;
+    margin-left: 5px;
+    height: 150px;
+    
+
+  }
+
+
+
+
+
+  @media (min-width: 1200px){
+    
+ #tempo{
+  width: auto;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 30px;
+ 
+    }  }
+
+  @media (min-width: 576px) { 
+    .logo-mob{
+      width: 100%;
+    display: none;
+    padding-right: 0px;
+  }
+  .tempo2{
+    width: 100%;
+    display: none;
+  }
+  
+  
+
+}
+
+@media (min-width: 992px){
+.container {
+    max-width: 1199.98px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+}
+}
+  
+  @media (max-width:600px){
+
+    #sidebar{
+     background-color: #f1f2f7;
+     display: none;
+    }
+    .logo{
+      display: none;
+    }
+    .usuario{
+      display: none;
+    }
+    .tempo{
+      display: none;
+      
+    }
+       
+    #fundo-side{
+      display: none;
+      background-color: #f1f2f7;
+    }
+    .card{
+      margin-bottom: 10px;
+      height: auto;
+    }
+
+   
+
+  
+  #tempo{
+   margin-top: 30px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+   margin-right: 20px;
+   width:100%;
+
+  }
+
+  #dash{
+    background-color: #f1f2f7;
+    width:100%;
+    color: #f1f2f7;
+    
+  }  }
